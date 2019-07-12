@@ -9,7 +9,7 @@ button.addEventListener('click', send, false);
 const socket = io();
 socket.on('smsStatus', function(data){
     if(data.error){
-        response.innerHTML = '<h5>Text sent to ' + data.error + '</h5>';
+        response.innerHTML = '<h5>Text sent to ' + data.error + ' Make sure you add the 1 before the area code.</h5>';
     }else{
         response.innerHTML = '<h5>Text sent to ' + data.number + '</h5>';
     }
