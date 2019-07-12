@@ -1,0 +1,27 @@
+{
+  "name": "textapp",
+  "version": "1.0.0",
+  "description": "send text using node.js",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nexmo": "^2.4.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHGarrett/TextAPP.git"
+  },
+  "author": "John Garrett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHGarrett/TextAPP/issues"
+  },
+  "homepage": "https://github.com/JHGarrett/TextAPP#readme"
+}
