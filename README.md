@@ -21,4 +21,4 @@ To serve in the browser
 $ npm start
 ```
 
-https://jhgarrett.github.io/TextAPP/
+https://simpletextapp.herokuapp.com/
