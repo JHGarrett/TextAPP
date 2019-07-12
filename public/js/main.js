@@ -35,5 +35,14 @@ const fetchServer = ({ number, text }) => {
         .then(function (res) {
             console.log(res);
         })
-        .catch(fun)
+        .catch(function (err) {
+            console.log(err);
+        });
+};
+
+function send() {
+    const number = numberInput.value.replace(/\D/g, '');
+    const text = textInput.value;
+    const time = parseInt(scheduleSelect.value, 10);
+    getTimeSchedule({ number, text, time });
 }
