@@ -64,7 +64,7 @@ app.post('/', (req, res) => {
 const port = 3000
 
 // starting server
-const server = app.listen(port, () => console.log('Server started on port ${port}'));
+const server = app.listen(port, () => console.log(`Server started on port ${port}`));
 
 // socket.io
 const io = socketio(server);

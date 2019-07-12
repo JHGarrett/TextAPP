@@ -1,12 +1,12 @@
 # TextAPP
 
-This is a node app that uses the Nexmo API to send text messages.
+This is a node app that uses the Nexmo API to send text messages. Unfortunatly I can only send messages to my own phone number on the free version. 
 
-Mostly just a refresher for node.js
+Mostly just a refresher for node.js and Ajax
 
-## Usage
+## Install Locally or view on the live site
 
-### Installation
+### For local install
 
 Install the dependencies
 
