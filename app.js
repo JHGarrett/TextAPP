@@ -61,7 +61,7 @@ app.post('/', (req, res) => {
 });
 
 // port
-const port = 3000
+const port = 8080
 
 // starting server
 const server = app.listen(port, () => console.log(`Server started on port ${port}`));
